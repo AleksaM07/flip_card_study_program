@@ -1,0 +1,48 @@
+Pitanje,Odgovor
+"Osnovni tipovi radio komunikacija. Model bezicnog komunikacionog sistema. Parametri modela (parametri antena). sta je vazno znati za predajnik (interferencija, lokacija predajnika)?: sta su radio komunikacije?","Radio-talasi: Elektromagnetni talasi (EMT) cija je frekvencija, niza od 3000 GHz, a koji se prenose kroz slobodan prosor (medijum, vazduh), bez koriscenja sistema za vestacko vodjenje (bezicnim putem);
+Radio-frekvencijski kanal: Deo radio-frekvencijskog spektra namenjen za emisiju, a koji moze biti definisan pomocu dve odredjene granice, ili svojom centralnom frekvencijom i pridruzenom sirinom opsega;
+"
+"Osnovni tipovi radio komunikacija. Model bezicnog komunikacionog sistema. Parametri modela (parametri antena). sta je vazno znati za predajnik (interferencija, lokacija predajnika)?: Model bezicnog komunikacionog Sistema","Kao medijum za prenos emt  se koriste talasovodi jer im je slabljenje manje nego kod koaksijalnih kablova;
+Predajna antenna je dodatan sklop koji omogucava da se emt vodjenog tipa konvertuje u emt koji nije vodjen. Predajnik dovodi elektricni signal do predajne antene, a antena zraci elektromagnetni talasi (radio talas).
+Prijemna antena vrsi obrnutu konverziju. Prilikom prijema, antena presrece deo snage, radio talasa, da bi proizvela elektricnan signal, koji se u prijemniku  pojacava.
+"
+"Osnovni tipovi radio komunikacija. Model bezicnog komunikacionog sistema. Parametri modela (parametri antena). sta je vazno znati za predajnik (interferencija, lokacija predajnika)?: Poredjenje sa zicnim sistemima","Za razliku od ""zicnih"" kanala koji su predvidivi, bezicni kanali su nestacionarni i slucajnih karakteristika, te su kao takvi veoma slozeni za egzaktnu analizu. 
+Osnovne karakteristike bezicnog prenosa:
+- Izrazeniji uticaj sumova i smetnji;
+- Povecanje transmisionih kapaciteta zahteva primenu sofisticiranih koncepata primopredajnika
+- BER (Bit Error Rate) se samo neznatno (linearno) poboljsava sa povecanjem snage predajnika (S/N) – U bezicnim mrezama je teze postici isti kvalitet kao u kablovskom sistemu
+- Pouzdanost veze je znacajno manja kod bezicnoh prenosa
+- Bezbednost (sigurnost) komunikacije
+- Ogranicena sirina raspolozivog RF spectra (bitna je sto veca spektralna efikasnost )
+Prednosti bezicnih komunikacija:
+- Brza i jednostavna instalacija mreze, uz nize troskove,
+- Elektromagnetni talasi zbog velike brzine prostiranja u slobodnom prostoru (vazduhu) omogucavaju trenutan prenos informacija – brzina svetlosti 3*10^8 
+- Povecanje rastojanja znacajno manje slabi signal u poredjenju sa kablovskim sistemima
+- Nezavisnost komunikacije od lokacije korisnika (na kopnu, moru, vazduhu)
+- Mobilnost korisnika..."
+Radio-frekvencijski (RF) spektar,"RF spektar - deo EM spektra koji se odnosi na frekvencije cije se vrednosti, nalaze u opsegu ucestanosti od 3 kHz do 3000 GHz. (za sada su u upotrebi frekvencije do 275 GHz, s tim sto najveci deo frekvencija koje se koriste lezi ispod 30 GHz). Deo RF spektra ispod 9kHz nije standardizovan (vojne primene). Delovi spektra za slobodno koriscenje: Besplatni delovi spektra, za koje nije potrebna licenca. Striktno kontrolisani da ne bi doslo do interferencije. To si ISM (Industia, Scientific and Medical band) i UNII (Unlicensed National Information Infrastructure band)."
+Oznacavanje radio emisija,"Sve radio emisije moraju imati oznaku. sema oznacavanja radio emisije je sledeca:
+BBB.B S B S (SS)
+- Prvi deo oznake (BBB.B) oznacava zauzetu sirinu opsega izrazenu najcesce u kHz.
+- Prvi simbol (S) predstavlja vrstu modulacije glavnog nosioca .
+- Drugi simbol (B) oznacava prirodu modulisuceg/ih signala koji modulise/u glavni nosilac.
+- Treci simbol (S) oznacava vrstu informacije koja se prenosi.
+- Simboli u zagradi (SS) predstavljaju dodatne karakteristike, i to cetvrti simbol daje detalje signala, a peti simbol prirodu multipleksa. 
+"
+*Upravljanje RF spektrom,Upravljanje RF spektrom se moze shvatiti kao celokupno regulisanje i upravljanje koriscenja RFS. Cilj ovog postupka je da se postigne najveca moguca efikasnost u upotrebi spektra i sto je moguce vise smanje smetnje.
+*ITU - R,"Regulatorna tela – ITU (International Telecommunication Union).
+Radiokomunikacioni sektor (ITU-R) - centralno telo za  poslove radiokomunikiacija, ima misiju u upravljanju RF spektrom ne samo na zemaljskom nivou nego i u kosmickom segment tj. u satelitskim vezama. Kljucni zadatak ITU-R-a je podela opsega radio-frekvencijskog.
+Kako ITU-R funkcionise?: kroz Svetske i Regionalne konferencije , skupstine o radio-komunikacijama , odbor za pravilnik o radio-komunikacijama i studijske grupe .
+Dokumenti medjunarodne regulative:
+- Pravilnici su sveobuhvatni i obimni dokumenti i imaju obavezujucu snagu.
+- Rezolucije su zakljucci konferencija koji iskazuju volju ucesnica.
+- Preporuke su propisi o pojedinim postupcima i metodama koji formalno nemaju obavezujucu snagu, ali ih po pravilu sve potpisnice postuju.
+"
+Medjunarodni pravilnik o radio-saobracaju (MPRS) ili RR (Radio Regulations)," MPRS je osnovni dokument ITU koji na globalnom (svetskom) nivou definise:
+- podelu frekvencijskih podopsega po sluzbama, dodelu i kontrolu koriscenja frekvencija,
+- koordinaciju, notifikaciju i upis (registraciju) frekvencijskih dodela,
+- mere i postupke protiv stetnih smetnji radio stanici
+"
+*Koordinacija i notifikacija radio frekvencija,"Koordinacija frekvencija je proces uskladjivanja frekvencija medju servisima kako bi se obezbedio spektar sto vecem broju korisnika.
+- Koordinacija je proces utvrdjivanja zone opsluzivanja datog radio komunikacionog sistema, pod uslovom da ne izaziva stetnu smetnju;
+- Notifikacija frekvencija podrazumeva prijavljivanje svake dodele radiofrekvencija Medjunarodnoj unijiza telekomunikacije"
