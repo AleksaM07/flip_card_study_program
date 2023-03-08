@@ -125,7 +125,6 @@ if is_ok:
         data = pandas.read_csv("data/ORK pitanja.csv", encoding='Windows-1252')
         unedited_list = data.to_dict()["Pitanje"]
         lista = list(unedited_list.keys())
-        print(lista)
 else:
     try: #we need to check if there is even a file to be opened
         with open("data/saved_progress.csv", mode="r") as data:
@@ -134,7 +133,6 @@ else:
             data = pandas.read_csv("data/ORK pitanja.csv", encoding='Windows-1252')
             unedited_list = data.to_dict()["Pitanje"]
             lista = list(unedited_list.keys())
-            print(lista)
     else:
         pass
 
